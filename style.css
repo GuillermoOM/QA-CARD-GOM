@@ -1,0 +1,35 @@
+@font-face {
+    font-family: outfit; src: url('Outfit-VariableFont_wght.ttf');
+}
+
+.separator {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 100px 0px;
+}
+
+.container {
+    font-family: outfit;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3%;
+    max-width: 300px;
+}
+
+.qrbox {
+    border-radius: 3%;
+    width: 100%;
+}
+
+.title {
+    margin: 20px 10px 20px 0px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.subtext {
+    margin: 20px 15px 20px 15px;
+    font-size: 15px;
+    font-weight: 300;
+}

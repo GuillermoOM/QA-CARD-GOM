@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Firefox Debug",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "file": "${workspaceFolder}/index.html",
+            "reloadOnChange": {
+                "watch": [ "${workspaceFolder}/*.html", "${workspaceFolder}/*.css"]
+            }
+        }
+    ]
+}
